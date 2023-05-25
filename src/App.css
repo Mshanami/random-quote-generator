@@ -1,0 +1,99 @@
+.App {
+  text-align: ;
+  
+}
+
+.container{
+  background-color: white;
+  margin-top: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
+  max-height: auto;
+  max-width: auto;
+  padding-bottom: 10px;
+  border-radius: 10px; 
+  padding-left: 15px;
+  padding-top: 15px;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+.categories-container{
+  display: flex;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+}
+select{
+  background-color: white;
+  padding: 5px;
+  font-size:20px;
+  color: #00154f;
+  border-radius: 6px;
+  border: none;
+  font-family: Atrament;
+
+
+}
+FaQuoteLeft{
+
+  color: #00154f;
+}
+.quote{
+  display: flex;
+
+}
+.initial-quote{
+  color: #00154f;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 10px;
+  font-family: Atrament;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.writer{
+  font-size: 24px;
+  font-family: cursive;
+  padding-left: 10px;
+  margin-left: 60%;
+  color: #00154f;
+}
+button{
+  background-color: #00154f;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius:;
+  width: 25%;
+  margin-left: 70%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: lightgreen;
+  color:#00154f ;
+}
+
+@media(max-width:700px){
+ .app{ 
+   width:100%; }
+ .container{
+  margin-right: 8px;
+  margin-left: 8px;
+  padding-left: 5px;
+  max-width: 90%;
+
+}
+select{
+  font-size: 15px;
+  
+}
+.categories-container{
+  padding: 5px;
+  font-size: 15px;
+}
+
+}
